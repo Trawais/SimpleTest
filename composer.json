@@ -3,5 +3,10 @@
     "require": {
         "facebook/webdriver": "^1.6",
         "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestCrunch\\": "src/"
+        }
     }
 }

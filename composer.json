@@ -8,5 +8,8 @@
         "psr-4": {
             "TestCrunch\\": "src/"
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit ./test"
     }
 }
